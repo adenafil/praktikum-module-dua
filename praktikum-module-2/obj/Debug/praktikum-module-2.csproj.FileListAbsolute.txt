@@ -1,0 +1,6 @@
+D:\praktikum-module-2\praktikum-module-2\obj\Debug\praktikum-module-2.csprojResolveAssemblyReference.cache
+D:\praktikum-module-2\praktikum-module-2\bin\Debug\praktikum-module-2.exe.config
+D:\praktikum-module-2\praktikum-module-2\bin\Debug\praktikum-module-2.exe
+D:\praktikum-module-2\praktikum-module-2\bin\Debug\praktikum-module-2.pdb
+D:\praktikum-module-2\praktikum-module-2\obj\Debug\praktikum-module-2.exe
+D:\praktikum-module-2\praktikum-module-2\obj\Debug\praktikum-module-2.pdb
