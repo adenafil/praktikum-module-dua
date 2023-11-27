@@ -15,6 +15,7 @@ namespace praktikum_module_2
 	/// </summary>
 	public class SoalStack
 	{
+		// constructor
 		public SoalStack() {
 			while(true) {
 				Console.WriteLine("Input:");
