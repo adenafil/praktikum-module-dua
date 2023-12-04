@@ -100,7 +100,7 @@ namespace praktikum_module_2
 //			result[error + 1] = ' ';
 			
 			
-			return new string(result);
+			return handlePrintX(result);
 		}
 		
 		/// <summary>
@@ -116,7 +116,31 @@ namespace praktikum_module_2
 				(openPar == '<' && closePar == '>');
 		}
 
-		
+		/// <summary>
+		/// Method untuk menghandle print X, dimana suatu kondisi ketika ada value X maka value selanjutnya tidak akan diprint
+		/// </summary>
+		/// <param name="value">hasil dari assignment X</param>
+		/// <returns>String baru</returns>
+		public static String handlePrintX(char[] value) {
+			// membuat variabel untuk return 
+			String result = null;
+			
+			// mencari nilai X dengan looping for
+			for (int i = 0; i < value.Length; i++) {
+				// jika ada value X
+				if (value[i] == 'X') {
+					// Maka kita lakukan assignment kepada sebuah variabel result
+					result += value[i];
+					// lalu kita berhentikan sebuah looping dengan break;
+					break;
+				}
+				// statement ini berfungsi untuk menghandle non X value
+				result += value[i];
+			}
+			
+			// Mengembalikan String baru
+			return result;
+		}
 		
 	}
 }
